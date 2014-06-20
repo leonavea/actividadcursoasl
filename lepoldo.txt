@@ -1,0 +1,101 @@
+Actividad. Curso de Adminsitracion en Linux
+
+
+- Entrar como root, ejecutar
+
+history -c
+
+
+-Crear un proyecto en github llamado actividadcursoasl
+1- Generar el Readme de una vez
+2- Agregarme al proyecto mi correo es juliochg@gmail.com
+3- agregar este .txt que ha sido modificado con tu nombre y apellido.
+4-hacer un commit
+
+5- Crear 5 archivos llamados y cambiar permisologia
+ -curso1.txt   ---RW-R-X
+ -curso2.txt   RWX-W-RW-
+ -curso3.txt   --X--X--X
+ -curso4.txt   -W--W-RWX
+ -curso5.txt   ---RW-R--
+
+----rw-r-x 1 root root    0 jun 20 14:03 curso1.txt
+-rwx-w-rw- 1 root root    0 jun 20 14:03 curso2.txt
+---x--x--x 1 root root    0 jun 20 14:03 curso3.txt
+--w--w-rwx 1 root root    0 jun 20 14:03 curso4.txt
+----rw-r-- 1 root root    0 jun 20 14:03 curso5.txt
+
+6-Como puedo visualizar las particiones del disco duro
+df -h
+7-Como matamos un proceso del computador
+kill -9
+8-Crear un carpeta llamada cunaguaro.
+  -abrir cunaguaro
+  -guardar la busqueda en archivo llamado cunaguaro.txt
+ root@laboratorio7:/home/evaluacion/cursoasl/actividadcursoasl/cunaguaro# cat cunaguaro.txt 
+search
+ps -aux | grep
+
+9-Crear un carpeta llamada kernel.
+  -guardar la busqueda en archivo llamado kernel.txt
+  -mover la carpeta kernel por kernel1.0
+root@laboratorio7:/home/evaluacion/cursoasl/actividadcursoasl# ls
+cunaguaro  curso1.txt  curso2.txt  curso3.txt  curso4.txt  curso5.txt  kernel  lepoldo.txt  README.md
+root@laboratorio7:/home/evaluacion/cursoasl/actividadcursoasl# mv kernelkernel1.0 kernel1.0
+root@laboratorio7:/home/evaluacion/cursoasl/actividadcursoasl# ls
+cunaguaro  curso1.txt  curso2.txt  curso3.txt  curso4.txt  curso5.txt  kernel1.0  lepoldo.txt  README.md
+
+10-Como configuras una interfaz de red con dhcp
+
+
+11-Que sucede cuando ejecutas el
+comando: touch registros
+- Copia el archivo registros al directorio actual.
+-Crea un archivo vacío llamado registros.
+-Borra el archivo registros.
+-Mueve el archivo registros al directorio actual
+root@laboratorio7:/home/evaluacion/cursoasl/actividadcursoasl/cunaguaro# touch registros
+root@laboratorio7:/home/evaluacion/cursoasl/actividadcursoasl/cunaguaro# ls
+cunaguaro.txt  registros
+root@laboratorio7:/home/evaluacion/cursoasl/actividadcursoasl/cunaguaro# rm registros
+root@laboratorio7:/home/evaluacion/cursoasl/actividadcursoasl/cunaguaro# ls
+cunaguaro.txt
+root@laboratorio7:/home/evaluacion/cursoasl/actividadcursoasl/cunaguaro# 
+
+
+12-El comando: more examen
+- Despliega el contenido del archivo examen, una pantalla a la vez.
+- Nos cambia al directorio examen.
+- Crea el archivo examen el directorio actual.
+- Muestra las primeras líneas del archivo examen
+
+13-crear un carpeta sl
+descargar el paquete fuente de sl, modificar el tren 
+con su nombre generar un nuevo paquete, e instalarlo
+  subir dichos paquetes al servidor de github
+
+14-comando para listar redes inalambricas.
+iwlist wlan0
+15-como funcionan x11vnc, pasos del cliente y servidor
+
+16- Como agregamos el usuario y gestionamos el cambio de contraseña
+adduser nombre de usuario 
+passwd nombre de usuario
+17-crear un carpeta canaima-semilla, copiar un sabor desde primera-base
+  llamarlo con el nombre de ustedes, editarlo todos los perfil personalizado.
+   subir dicha carpeta a github.
+   - agregar un txt, con los pasos para ejecutar la creacion de la .iso
+
+18- donde se modifican los repositorios en debian, 
+   - cuales son los pasos para ejecutar un repositorio nuevo.
+
+19- Las particiones de un disco se nombran mediante el nombre de dispositivo y el
+número de partición:
+
+20- Como hago un repositorio con debmirror, comando.
+
+21- Guardar el history en .txt para verificar todo lo anterior fue realizado por ti.
+
+ 
+
+

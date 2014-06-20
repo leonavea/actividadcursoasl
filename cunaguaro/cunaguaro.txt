@@ -1,0 +1,8 @@
+search
+ps -aux | grep
+root      2709  0.0  0.0   7848   884 pts/2    S+   14:42   0:00 grep --color=auto cunaguaro
+equipo7  18021  1.0  5.1 924260 205712 ?       Sl   10:13   2:54 cunaguaro
+root      2711  0.0  0.0   7848   884 pts/2    S+   14:42   0:00 grep --color=auto cunaguaro
+equipo7  18021  1.0  5.1 924260 205712 ?       Sl   10:13   2:54 cunaguaro
+root      2713  0.0  0.0   7848   880 pts/2    S+   14:43   0:00 grep --color=auto cunaguaro
+equipo7  18021  1.0  5.1 924260 205976 ?       Sl   10:13   2:54 cunaguaro
